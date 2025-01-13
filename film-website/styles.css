@@ -1,0 +1,48 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to top, #f8ede3, #f0e3d7, #e9d9cc, #e1cfc1, #dac5b6, #d6bbaa, #d1b19e, #cda792, #cb9a83, #c98c75, #c77e68, #c5705d);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+}
+
+.navbar-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.icon {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.icon:hover {
+    color: #ffcc00; /* Change color on hover */
+}

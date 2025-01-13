@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>homepage</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Films</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="admin/index.html">Admin</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav class="navbar">
+        <div class="navbar-title">Movies</div>
+        <div class="navbar-icons">
+            <a href="#" class="icon home-icon" title="Home">
+                🏠
+            </a>
+            <a href="#" class="icon admin-icon" title="Admin Login">
+                🔑
+            </a>
+        </div>
+    </nav>
     <main>
         <section class="film-lijst">
             <article class="film">
@@ -30,11 +32,9 @@
                 <p>Korte beschrijving van Film Titel 2.</p>
                 <a href="">Bekijk details</a>
             </article>
-            <!-- Voeg meer films toe zoals nodig -->
         </section>
     </main>
     <footer>
-        <p>&copy; 2023 Film Website</p>
     </footer>
 </body>
 </html>
