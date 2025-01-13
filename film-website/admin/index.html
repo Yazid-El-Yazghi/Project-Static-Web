@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Film Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Admin Panel</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../movie-detail.html">Movies</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="login-section">
+            <h2>Admin Login</h2>
+            <form id="login-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit">Login</button>
+            </form>
+        </section>
+        <section id="manage-films-section">
+            <h2>Manage Films</h2>
+            <form id="film-form">
+                <label for="title">Film Title:</label>
+                <input type="text" id="title" name="title" required>
+
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" required></textarea>
+
+                <label for="image">Image URL:</label>
+                <input type="url" id="image" name="image" required>
+
+                <button type="submit">Add Film</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
