@@ -26,8 +26,8 @@ body {
 }
 
 .navbar h1{
-    position: absolute;
-    left: 50%;
+    flex-grow: 1;
+    text-align: center;
 }
 
 .navbar-title {
@@ -73,5 +73,18 @@ body {
 }
 
 .film-card:hover{
-    box-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
+}
+
+.Movie-detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #00000070;
+}
+
+footer{
+    position: absolute;
+    height: 0%;
 }
