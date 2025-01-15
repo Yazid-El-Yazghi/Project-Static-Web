@@ -8,30 +8,34 @@
 </head>
 <body>
     <nav class="navbar">
-        <div class="navbar-title">Movies</div>
+        <h1>Movies</h1>
         <div class="navbar-icons">
-            <a href="#" class="icon home-icon" title="Home">
-                🏠
+            <a href="index.html" class="icon" title="Home">
+                <img src="data/Icons/SVG/home.svg" class="icon home-icon" alt="Home">
             </a>
-            <a href="#" class="icon admin-icon" title="Admin Login">
-                🔑
+            <a href="/admin/index.html" class="icon" title="Admin">
+                <img src="data/Icons/SVG/user.svg" alt="Admin">
             </a>
         </div>
     </nav>
     <main>
-        <section class="film-lijst">
-            <article class="film">
-                <h2>Film Titel 1</h2>
-                <img src="" alt="Film Titel 1">
-                <p>Korte beschrijving van Film Titel 1.</p>
-                <a href="">Bekijk details</a>
-            </article>
-            <article class="film">
-                <h2>Film Titel 2</h2>
-                <img src="" alt="Film Titel 2">
-                <p>Korte beschrijving van Film Titel 2.</p>
-                <a href="">Bekijk details</a>
-            </article>
+        <section class="filmgrid">
+            <a class="film-link" href="movie-detail.html">
+                <article class="film-card">
+                    <h2>Film Titel 1</h2>
+                    <img src="" alt="Film Titel 1">
+                    <p>Korte beschrijving van Film Titel 1.</p>
+                    <a href="">Bekijk details</a>
+                </article>
+            </a>
+            <a class="film-link" href="movie-detail.html">
+                <article class="film-card" href="details.html">
+                    <h2>Film Titel 2</h2>
+                    <img src="" alt="Film Titel 2">
+                    <p>Korte beschrijving van Film Titel 2.</p>
+                    <a href="">Bekijk details</a>
+                </article>
+            </a>
         </section>
     </main>
     <footer>
