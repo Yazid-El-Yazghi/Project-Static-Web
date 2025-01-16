@@ -98,6 +98,6 @@ body {
 }
 
 footer{
-    position: absolute;
-    height: 0%;
+    position: fixed;
+    height: 0;
 }
