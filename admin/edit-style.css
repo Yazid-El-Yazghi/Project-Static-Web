@@ -30,12 +30,26 @@ h1 {
 }
 
 .search-container input[type="text"] {
-    width: 100%;
+    width: calc(100% - 100px);
     padding: 10px;
     border: 1px solid #444;
     border-radius: 4px;
     background-color: #222;
     color: white;
+}
+
+.search-button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
 }
 
 table {
@@ -48,6 +62,7 @@ th, td {
     border: 1px solid #444;
     padding: 10px;
     text-align: left;
+    max-height: 250px;
 }
 
 th {
@@ -59,7 +74,8 @@ tr:hover {
 }
 
 td img {
-    width: 100%;
+    max-height: 250px;
+    width: auto;
     height: auto;
 }
 
