@@ -91,6 +91,7 @@ body {
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
+    font-size: x-large;
 }
 
 footer{
