@@ -44,14 +44,17 @@ input[type="password"] {
 }
 
 .submit-button {
+  display: inline-block;
   width: 100%;
   padding: 10px;
   background-color: #007BFF;
   color: white;
+  text-align: center;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   font-size: 16px;
+  text-decoration: none;
 }
 
 .submit-button:hover {
