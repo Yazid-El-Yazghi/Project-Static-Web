@@ -21,7 +21,6 @@ body {
     margin: 0;
     padding: 0;
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(168,0,0,1) 50%, rgba(0,0,0,1) 100%);
-    min-width: 480px;
 }
 
 .navbar {
@@ -76,8 +75,8 @@ body {
 }
 
 .movie-poster {
-    width: auto;
-    height: auto;
+    width: 25%;
+    height: 25%;
 }
 
 .info p {
@@ -134,7 +133,7 @@ body {
 }
 
 .trailer-container {
-    width: 100%;
+    width: 50%;
     max-width: 800px;
     margin-bottom: 20px;
 }
